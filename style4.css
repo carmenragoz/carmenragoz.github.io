@@ -1,0 +1,154 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+	background: #FFD1DA;
+	align-items: center;
+	padding: 10px;
+}
+
+.logo img{
+	height: 70px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+a:hover{
+	color: white;
+}
+nav a{
+	padding-right: 70px;
+	font-family: Overthink;
+}
+.vertical{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.vertical li{
+	display: block;
+	padding: 5px;
+	margin-bottom: 7px;
+}
+
+.vertical a{
+	color: #E6A4B4;
+	font-family: Overthink;
+	font-size: 25px;
+}
+.vertical a:hover{
+	color: #99627A ;
+}
+h1{
+	margin-left: 100px;
+	font-family: Muthiara -Demo Version-;
+	font-size: 40px;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 300px;
+	margin-top: -230px;
+}
+.container img{
+	height: 200px;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 340px;
+	margin-top: 20px;
+}
+.container2 img{
+	height: 200px;
+}
+.container3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 340px;
+	margin-top: 20px;
+}
+.container3 img{
+	height: 230px;
+}
+figcaption{
+	font-family: Calibri;
+	color: black;
+	font-size: 18px;
+}
+button{
+	margin-top: 10px;
+}
+button:hover{
+	background: #99627A ;
+}
+button a{
+	font-family:Calibri;
+	font-size: 15px;
+}
+button a:hover{
+	color: white;
+
+}
+footer{
+	background: #FFD1DA;
+	font-family:Calibri;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+footer a{
+	margin-left: 5px;
+}
+
+.flor1{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 340px;
+	margin-top: 20px;
+}
+.flor1 img{
+	height: 200px;
+}
+.flor2{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 340px;
+	margin-top: 20px;
+}
+.flor2 img{
+	height: 200px;
+}
+.flor3{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #445069;
+	margin-left: 340px;
+	margin-top: 20px;
+}
+.flor3 img{
+	height: 230px;
+}
+h2{
+	text-align: center;
+	margin-top: 30px ;
+	font-family: Overthink;
+	font-size: 30px;
+}

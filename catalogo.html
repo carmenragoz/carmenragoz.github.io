@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<title></title>
+</head>
+<body onclick="PlayAudio()">
+
+	<header>
+	<div class="logo">
+		<img src="imagenes/logo2.png">
+	</div>
+
+	<nav>
+		<a href="inicio.html">Inicio</a>
+		<a href="">Catalogo</a>
+		<a href="per.html">Personalizado</a>
+		<a href="Actividad.html">Cuenta</a>
+	</nav>
+</header>
+
+<h1>Flores</h1>
+
+<div class="vertical">
+<li><a href="">Todas</a></li>
+<li><a href="#uno">Girasoles</a></li>
+<li><a href="#dos">Tulipanes</a></li>
+<li><a href="#tres">Orquideas</a></li>
+<li><a href="#cuatro">Peonías</a></li>
+
+</div>
+
+<div class="container">
+		<figure><img class="img" src="imagenes/girasol.jpg">
+			<figcaption>Caja de girasoles $200</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+
+	<figure><img class="img" src="imagenes/girasol2.jpg">
+		<figcaption>Arreglo floral de girasol $350</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+
+	<figure><img class="img" src="imagenes/tulipanes.jpg">
+		<figcaption>Ramo de tulipanes $230</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+	
+	</div>
+
+	<div class="container2">
+		<figure><img class="img" src="imagenes/tulipanes2.jpeg">
+			<figcaption>Florero de tulipanes $380</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+
+	<figure><img class="img" src="imagenes/orquideas.jpg">
+		<figcaption>Arreglo de orquideas $300</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+
+	<figure><img class="img" src="imagenes/orquideas2.jpg">
+		<figcaption>Florero de orquideas $350</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+	
+	</div>
+
+<div class="container2">
+		<figure><img class="img" src="imagenes/peonias.jpg">
+			<figcaption>Florero de peonías $400</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+
+	<figure><img class="img" src="imagenes/peonias2.jpg">
+		<figcaption>Ramo de peonías $180</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+
+	</div>
+
+<h2>Girasol</h2>
+<div class="flor1" id="uno">
+	<figure><img class="img" src="imagenes/girasol.jpg">
+			<figcaption>Caja de girasoles $200</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+
+	<figure><img class="img" src="imagenes/girasol2.jpg">
+		<figcaption>Arreglo floral de girasol $350</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+	
+</div>
+
+<h2>Tulipanes</h2>
+<div class="flor2" id="dos">
+	<figure><img class="img" src="imagenes/tulipanes.jpg">
+		<figcaption>Ramo de tulipanes $230</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+	
+	<figure><img class="img" src="imagenes/tulipanes2.jpeg">
+			<figcaption>Florero de tulipanes $380</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+</div>
+
+<h2>Orquideas</h2>
+<div class="flor3" id="tres">
+	<figure><img class="img" src="imagenes/orquideas.jpg">
+		<figcaption>Arreglo de orquideas $300</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+
+	<figure><img class="img" src="imagenes/orquideas2.jpg">
+		<figcaption>Florero de orquideas $350</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+</div>
+
+<h2>Peonías</h2>
+<div class="flor4" id="cuatro">
+	<figure><img class="img" src="imagenes/peonias.jpg">
+			<figcaption>Florero de peonías $400</figcaption>
+			<button><a href="">Comprar</a></button>
+		</figure>
+
+	<figure><img class="img" src="imagenes/peonias2.jpg">
+		<figcaption>Ramo de peonías $180</figcaption>
+		<button><a href="">Comprar</a></button>
+	</figure>
+</div>
+
+<audio id="musica" loop>
+	<source src="Musica/song.mp3" type="audio/mpeg">
+</audio>
+<script>
+	function PlayAudio(){
+		document.getElementById("musica").play();
+	}
+</script>
+
+<footer>
+	Correo: .....@gmail.com
+	<a href=""><i class="fa-brands fa-x-twitter"></i></a>
+	<a href=""><i class="fa-brands fa-youtube"></i></a>
+	<a href="/"><i class="fa-brands fa-instagram"></i></a>
+</footer>
+
+</body>
+</html>
